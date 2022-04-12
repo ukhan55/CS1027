@@ -1,0 +1,34 @@
+Answers for Lab 4
+
+1. What is the first suggestion made by Eclipse to fix the compilation error?
+change add() to 'static'
+
+2. Why are there compilation errors inside method add?
+
+because the method add is non static, and only static objects can be referenced in a static main method
+
+3. What are the disadvantages of declaring all instance variables and methods in a class
+as static?
+
+java only creates one static object per class
+
+4. Explain why the list  for network 1 includes 3 friends and why the list for network 2 also
+includes the same 3 friends.
+
+because network 1 and 2 are a static object of class social netowrk. this is because java only creates one static object per class.
+
+5. How many non-static objects of the class SocialNetwork can be created?
+
+as many as you want.
+
+6. Explain how the clearFriends() method can be implemented with only one assignment. Why is it 
+not neccessary to set every entry of friendList to null?
+
+numFriends = 0; friendList = null
+
+7. Is the list in network empty?
+no there is one element.
+
+
+
+

@@ -1,0 +1,13 @@
+Answer the following questions.
+
+1. What do you think will be the output produced by the program?
+true, true , false, true, true, true
+
+2. Run the program to see what the output for "Test 1" is. Explain why the program produce this output. Is this output what you expected?
+it produced false, it produced this because each string is new(new in memory), and therefore cannot be the same, i expected true at first but aftert the output result i can see why it produced false
+
+3. Explain the output for Tests 2 and 3.
+test 2 is true because you have 2 objects none of which are new, and test 3 which one is new, which makes it false
+
+4. Explain the output for Tests 4-6.
+the output is true for all 3 test cases because you are setting ther objects equal to each other with the .equal function.
